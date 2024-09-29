@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "extension backend"
+version = "0.1.0"
+description = "Applitrace extension backend"
+authors = ["harinda05 <harindaburndown@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.0"
+uvicorn = {extras = ["standard"], version = "^0.31.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
